@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# IDE0058: Expression value is never used
+dotnet_diagnostic.IDE0058.severity = none
+
+# IDE0055: Fix formatting
+dotnet_diagnostic.IDE0055.severity = none
+
+# UNT0008: Null propagation on Unity objects
+dotnet_diagnostic.UNT0008.severity = silent

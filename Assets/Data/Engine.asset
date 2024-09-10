@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a537b91a54786ad47a0715e477b5d9ef, type: 3}
+  m_Name: Engine
+  m_EditorClassIdentifier: 
+  startingHealth:
+  - type: 0
+    value: 25
+  - type: 1
+    value: 0
+  - type: 2
+    value: 0
+  repairCost:
+  - key: 0
+    pairs:
+    - type: 0
+      value: 0.5
+    - type: 3
+      value: 0.7
+    - type: 1
+      value: 0.3
+  cost:
+  - type: 3
+    value: 30
+  - type: 1
+    value: 10
+  - type: 0
+    value: 15
+  forwardSpeed: 10
+  turnSpeed: 6
+  engineTrail: {fileID: 6597679382372968193, guid: 55ea28ad2598c2a47813acd43ad77102,
+    type: 3}

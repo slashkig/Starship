@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be7a7e760bd340c40b712223f594e44e, type: 3}
+  m_Name: Large Asteroid
+  m_EditorClassIdentifier: 
+  startingHealth:
+  - type: 0
+    value: 750
+  - type: 1
+    value: 30
+  - type: 2
+    value: 0
+  resourceWeights:
+  - type: 3
+    value: 0.1
+  - type: 1
+    value: 1.2
+  - type: 2
+    value: 1.7
+  fragment: {fileID: 8481921632785965540, guid: 5e81144345c0910458da204cc78813f5,
+    type: 3}
+  numFragments: 2

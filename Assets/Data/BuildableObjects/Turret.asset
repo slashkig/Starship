@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493bb5ed43438674282a71e4abf8f1fe, type: 3}
+  m_Name: Turret
+  m_EditorClassIdentifier: 
+  startingHealth:
+  - type: 0
+    value: 15
+  cost:
+  - type: 3
+    value: 25
+  - type: 4
+    value: 10
+  - type: 1
+    value: 10
+  reloadTime: 3.5
+  projectile: {fileID: 2135541780756854816, guid: 69bd5302d7608874790014d3860e6398,
+    type: 3}

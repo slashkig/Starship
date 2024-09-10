@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ac6e4753d2df5ed4d9d33cadd0069c07
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - statText: {instanceID: 0}
+  - ship: {instanceID: 0}
+  - factoryButton: {fileID: 2414835001597459220, guid: da47d32cb0609a944b8649eec7855576,
+      type: 3}
+  executionOrder: -30
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
